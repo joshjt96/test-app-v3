@@ -2,6 +2,30 @@
 
 .navbar {
 
-background-color: #92A9BD !important;
+background-color: #21325E !important;
 
+}
+
+.navbar-brand {
+    
+    font-size: 1.7em;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: url("blogging1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    margin: 25px;
+    
+}
+
+#footer {
+    color: white;
+    text-align: center;
+  padding: 1% 0;
+  background-color: #21325E;
 }
