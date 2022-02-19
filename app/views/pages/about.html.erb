@@ -1,4 +1,9 @@
-<h1>This is the About page.</h1>
+<h1 class="text-center mt-4">About</h1>
 
-<%= link_to 'Articles listing', articles_path %>
-<%= link_to 'Home page', root_path %>
+  <p class="text-center mt-4">This is my first test Ruby on Rails app. It's a blog app that uses CRUD operations to create, read, update and delete blog articles.</p>
+
+
+  <div class="text-center mt-4">
+      <%= link_to "Create new article", new_article_path, class: "btn btn-success" %>
+          <%= link_to "View articles", articles_path, class: "btn btn-primary" %>
+  </div>
