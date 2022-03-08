@@ -23,5 +23,11 @@
     edited <%= time_ago_in_words(@article.updated_at) %> ago</small>
   </div>
   </div>
+  <div class="input-group justify-content-center mb-3">
+          <%= link_to 'Back to all articles', articles_path %>
+        </div>
+    <div class="input-group justify-content-center mb-3">
+      <%= link_to 'View all categories', categories_path %>
+      </div>
   </div>
 </div>
