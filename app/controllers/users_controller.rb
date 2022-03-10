@@ -59,6 +59,6 @@ class UsersController < ApplicationController
         flash[:alert] = "You can only edit or delete your own profile."
         redirect_to @user
       end
-    end
+   end
 
 end
